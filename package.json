@@ -1,0 +1,29 @@
+{
+  "name": "practice",
+  "version": "1.0.0",
+  "description": "",
+  "main": "inde.js",
+  "scripts": {
+    "start": "nodemon src/os.mjs",
+    "path": "nodemon src/path.js",
+    "adv": "nodemon src/adv.js",
+    "lls": "nodemon src/comandlls.js",
+    "app": "nodemon src/app.js",
+    "dev": "nodemon src/fs.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemon": "^3.0.1",
+    "picocolors": "^1.0.0"
+  },
+  "devDependencies": {
+    "standard": "^17.1.0"
+  },
+  "eslintConfig": {
+    "extends":"standard"
+  }
+
+}
