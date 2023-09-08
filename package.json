@@ -6,9 +6,11 @@
   "scripts": {
     "start": "nodemon src/os.mjs",
     "path": "nodemon src/path.js",
+    "port": "nodemon src/port.js",
     "adv": "nodemon src/adv.js",
     "lls": "nodemon src/comandlls.js",
     "app": "nodemon src/app.js",
+    "idx": "nodemon src/idx.js",
     "dev": "nodemon src/fs.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
